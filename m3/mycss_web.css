@@ -1,0 +1,63 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mystyle {
+    color: blue;
+}
+
+#mynewstyle {
+    border: 3px solid green;
+    padding: 12px;
+    margin: 20px;
+}
+
+.mytable {
+    border: 2px solid brown;
+    border-collapse: collapse;
+}
+
+.mytable th,
+.mytable td {
+
+    border: 3px solid brown;
+    padding: 5px;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li {
+    padding-left: 20px;
+}
+
+img {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+form {
+    border: 3px solid rgb(171, 125, 214);
+    padding: 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+a {
+    color: red;
+}
+
+@media print{
+    body {
+        color: black;
+    }
+}
